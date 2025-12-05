@@ -188,6 +188,10 @@
     endpoint: /loadbalancesettings
   - name: vpn_ra_address_assignment_policy
     endpoint: /addressassignmentsettings
+- name: interface_groups
+  endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/interfacegroups
+- name: interface_group
+  endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/interfacegroups
 - name: as_path
   endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/aspathlists
 - name: as_paths
@@ -277,8 +281,6 @@
   endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/securityzones
 - name: security_zones
   endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/securityzones
-- name: interface_group
-  endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/interfacegroups
 - name: ikev2_ipsec_proposals
   endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/ikev2ipsecproposals
 - name: application_filters
