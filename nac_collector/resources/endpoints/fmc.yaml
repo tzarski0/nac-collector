@@ -31,8 +31,12 @@
     endpoint: /subinterfaces
   - name: device_ipv4_static_route
     endpoint: /routing/ipv4staticroutes
+  - name: device_ospf
+    endpoint: /routing/ospfv2routes
   - name: device_bgp_general_settings
     endpoint: /routing/bgpgeneralsettings
+  - name: device_ospf_interface
+    endpoint: /routing/ospfinterface
   - name: device_loopback_interface
     endpoint: /loopbackinterfaces
   - name: device_ipv6_static_route
@@ -267,6 +271,10 @@
   endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/ipv4prefixlists
 - name: ipv4_prefix_list
   endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/ipv4prefixlists
+- name: key_chains
+  endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/keychains
+- name: key_chain
+  endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/object/keychains
 - name: prefilter_policy
   endpoint: /api/fmc_config/v1/domain/{DOMAIN_UUID}/policy/prefilterpolicies
 - name: url_group
