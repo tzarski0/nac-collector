@@ -345,6 +345,13 @@
     endpoint: /routing/multicast
   - name: service_ipv6_acl
     endpoint: /ipv6-acl
+- name: sse_feature_profile
+  endpoint: /v1/feature-profile/sdwan/sse
+  children:
+  - name: sse_zscaler
+    endpoint: /zscaler
+  - name: sse_cisco
+    endpoint: /cisco
 - name: embedded_security_feature_profile
   endpoint: /v1/feature-profile/sdwan/embedded-security
   children:
