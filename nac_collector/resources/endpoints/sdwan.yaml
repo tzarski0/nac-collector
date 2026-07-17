@@ -522,6 +522,8 @@
 - name: other_feature_profile
   endpoint: /v1/feature-profile/sdwan/other
   children:
+  - name: other_trustsec
+    endpoint: /trustsec
   - name: other_ucse
     endpoint: /ucse
   - name: other_thousandeyes
