@@ -173,6 +173,13 @@
   endpoint: /v1/config-group/
 - name: sla_class_policy_object
   endpoint: /template/policy/list/sla/
+- name: network_hierarchy_node
+  endpoint: /v1/network-hierarchy
+  children:
+  - name: network_hierarchy_cflowd
+    endpoint: /network-settings/cflowd
+  - name: network_hierarchy_security_logging
+    endpoint: /network-settings/security-logging
 - name: other_feature_profile
   endpoint: /v1/feature-profile/sdwan/other
   children:
