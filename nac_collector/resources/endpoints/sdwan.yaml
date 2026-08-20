@@ -353,6 +353,8 @@
     endpoint: /routing/eigrp
   - name: service_object_tracker
     endpoint: /objecttracker
+  - name: service_dual_router_ha
+    endpoint: /dual-router-ha
   - name: service_multicast
     endpoint: /routing/multicast
   - name: service_routing_bgp
