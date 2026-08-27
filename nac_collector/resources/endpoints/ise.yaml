@@ -14,6 +14,8 @@
   endpoint: /api/v1/policy/device-admin/policy-set/global-exception
 - name: device_admin_authorization_global_exception_rule
   endpoint: /api/v1/policy/device-admin/policy-set/global-exception
+- name: sxp_vpn
+  endpoint: /ers/config/sxpvpns
 - name: endpoint
   endpoint: /ers/config/endpoint
 - name: network_access_dictionary
@@ -89,6 +91,8 @@
   endpoint: /ers/config/egressmatrixcell
 - name: trustsec_egress_matrix_cell_default
   endpoint: /ers/config/egressmatrixcell
+- name: sxp_connection
+  endpoint: /ers/config/sxpconnections
 - name: active_directory_join_point
   endpoint: /ers/config/activedirectory
 - name: sxp_domain_filter
@@ -133,3 +137,5 @@
   endpoint: /ers/config/networkdevice
 - name: network_access_time_and_date_condition
   endpoint: /api/v1/policy/network-access/time-condition
+- name: sxp_local_binding
+  endpoint: /ers/config/sxplocalbindings
