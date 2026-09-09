@@ -392,6 +392,8 @@
     id_name: serial
     endpoint: /devices
     children:
+    - name: generate_appliance_vmx_authentication_token
+      endpoint: /appliance/vmx/authenticationToken
     - name: camera_custom_analytics
       endpoint: /camera/customAnalytics
       allowed_device_models:
@@ -461,8 +463,12 @@
       - MV
     - name: wireless_device_electronic_shelf_label
       endpoint: /wireless/electronicShelfLabel
+    - name: reboot_device
+      endpoint: /reboot
     - name: camera_device_wireless_profiles
       endpoint: /camera/wirelessProfiles
       allowed_device_models:
       - MV
+    - name: blink_device_leds
+      endpoint: /liveTools/leds/blink
     root: true
