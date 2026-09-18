@@ -533,6 +533,8 @@
   endpoint: /template/policy/definition/securitygroup/
 - name: zone_list_policy_object
   endpoint: /template/policy/list/zone/
+- name: scope
+  endpoint: /v1/resource-domain/
 - name: site_list_policy_object
   endpoint: /template/policy/list/site/
 - name: class_map_policy_object
