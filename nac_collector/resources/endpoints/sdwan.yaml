@@ -315,6 +315,8 @@
       endpoint: /routing/ospfv3/ipv4
   - name: service_tracker
     endpoint: /tracker
+  - name: service_appqoe
+    endpoint: /appqoe
   - name: service_routing_ospfv3_ipv4
     endpoint: /routing/ospfv3/ipv4
   - name: service_route_policy

@@ -176,6 +176,8 @@
       has_own_id: true
       id_name: payloadTemplateId
       endpoint: /webhooks/payloadTemplates
+    - name: network_wireless_radio_rrm
+      endpoint: /wireless/radio/rrm
     - name: appliance_one_to_one_nat_rules
       endpoint: /appliance/firewall/oneToOneNatRules
     - name: appliance_firewalled_service
