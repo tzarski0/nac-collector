@@ -225,6 +225,11 @@
     endpoint: /cellular-profile
   - name: transport_cellular_controller
     endpoint: /cellular-controller
+    children:
+    - name: transport_cellular_controller_feature_associate_gps
+      endpoint: /gps
+    - name: transport_cellular_controller_feature_associate_cellular_profile
+      endpoint: /cellular-profile
   - name: transport_t1_e1_controller
     endpoint: /t1-e1-controller
   - name: transport_tracker
