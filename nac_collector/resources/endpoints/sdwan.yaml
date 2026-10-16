@@ -207,9 +207,12 @@
     name: policy_object_expanded_community_list
     endpoint: /expanded-community
   - &id036
+    name: policy_object_security_data_ipv6_prefix_list
+    endpoint: /security-data-ipv6-prefix
+  - &id037
     name: policy_object_unified_advanced_malware_protection
     endpoint: /unified/advanced-malware-protection
-  - &id037
+  - &id038
     name: policy_object_ipv6_prefix_list
     endpoint: /ipv6-prefix
 - name: policy_object_feature_profile_parcels
@@ -252,6 +255,7 @@
   - *id035
   - *id036
   - *id037
+  - *id038
 - name: network_hierarchy_node
   endpoint: /v1/network-hierarchy
   children:
