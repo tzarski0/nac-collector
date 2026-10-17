@@ -102,117 +102,123 @@
   endpoint: /v1/feature-profile/sdwan/policy-object
   children:
   - &id001
+    name: policy_object_security_rule_set
+    endpoint: /security-rule-set
+  - &id002
     name: policy_object_standard_community_list
     endpoint: /standard-community
-  - &id002
+  - &id003
     name: policy_object_data_ipv6_prefix_list
     endpoint: /data-ipv6-prefix
-  - &id003
+  - &id004
     name: policy_object_security_data_ipv4_prefix_list
     endpoint: /security-data-ip-prefix
-  - &id004
+  - &id005
     name: policy_object_tloc_list
     endpoint: /tloc
-  - &id005
+  - &id006
     name: policy_object_sla_class_list
     endpoint: /sla-class
-  - &id006
+  - &id007
     name: policy_object_security_url_allow_list
     endpoint: /security-urllist
-  - &id007
+  - &id008
     name: policy_object_security_url_block_list
     endpoint: /security-urllist
-  - &id008
+  - &id009
     name: policy_object_preferred_color_group
     endpoint: /preferred-color-group
-  - &id009
+  - &id010
     name: policy_object_as_path_list
     endpoint: /as-path
-  - &id010
+  - &id011
     name: policy_object_policer
     endpoint: /policer
-  - &id011
+  - &id012
     name: policy_object_unified_advanced_inspection_profile
     endpoint: /unified/advanced-inspection-profile
-  - &id012
+  - &id013
     name: policy_object_data_ipv4_prefix_list
     endpoint: /data-prefix
-  - &id013
+  - &id014
     name: policy_object_security_zone
     endpoint: /security-zone
-  - &id014
+  - &id015
     name: policy_object_security_local_domain_list
     endpoint: /security-localdomain
-  - &id015
+  - &id016
     name: policy_object_unified_url_filtering
     endpoint: /unified/url-filtering
-  - &id016
+  - &id017
     name: policy_object_security_fqdn_list
     endpoint: /security-fqdn
-  - &id017
+  - &id018
     name: policy_object_vpn_group
     endpoint: /vpn-group
-  - &id018
+  - &id019
     name: policy_object_security_ips_signature
     endpoint: /security-ipssignature
-  - &id019
+  - &id020
     name: policy_object_extended_community_list
     endpoint: /ext-community
-  - &id020
+  - &id021
     name: policy_object_ipv4_prefix_list
     endpoint: /prefix
-  - &id021
+  - &id022
+    name: policy_object_security_object_group
+    endpoint: /security-object-group
+  - &id023
     name: policy_object_unified_tls_ssl_profile
     endpoint: /unified/ssl-decryption-profile
-  - &id022
+  - &id024
     name: policy_object_security_protocol_list
     endpoint: /security-protocolname
-  - &id023
+  - &id025
     name: policy_object_application_list
     endpoint: /app-list
-  - &id024
+  - &id026
     name: policy_object_unified_intrusion_prevention
     endpoint: /unified/intrusion-prevention
-  - &id025
+  - &id027
     name: policy_object_security_geolocation_list
     endpoint: /security-geolocation
-  - &id026
+  - &id028
     name: policy_object_security_scalable_group_tag_list
     endpoint: /security-scalablegrouptag
-  - &id027
+  - &id029
     name: policy_object_mirror
     endpoint: /mirror
-  - &id028
+  - &id030
     name: policy_object_app_probe_class
     endpoint: /app-probe
-  - &id029
+  - &id031
     name: policy_object_security_local_application_list
     endpoint: /security-localapp
-  - &id030
+  - &id032
     name: policy_object_security_port_list
     endpoint: /security-port
-  - &id031
+  - &id033
     name: policy_object_security_identity_list
     endpoint: /security-identity
-  - &id032
+  - &id034
     name: policy_object_unified_tls_ssl_decryption
     endpoint: /unified/ssl-decryption
-  - &id033
+  - &id035
     name: policy_object_color_list
     endpoint: /color
-  - &id034
+  - &id036
     name: policy_object_class_map
     endpoint: /class
-  - &id035
+  - &id037
     name: policy_object_expanded_community_list
     endpoint: /expanded-community
-  - &id036
+  - &id038
     name: policy_object_security_data_ipv6_prefix_list
     endpoint: /security-data-ipv6-prefix
-  - &id037
+  - &id039
     name: policy_object_unified_advanced_malware_protection
     endpoint: /unified/advanced-malware-protection
-  - &id038
+  - &id040
     name: policy_object_ipv6_prefix_list
     endpoint: /ipv6-prefix
 - name: policy_object_feature_profile_parcels
@@ -256,6 +262,8 @@
   - *id036
   - *id037
   - *id038
+  - *id039
+  - *id040
 - name: network_hierarchy_node
   endpoint: /v1/network-hierarchy
   children:
