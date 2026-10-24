@@ -374,6 +374,10 @@
     root: true
   - name: organization_integrations_xdr_networks
     endpoint: /integrations/xdr/networks/enable
+  - name: wireless_devices_provisioning_deployment
+    has_own_id: true
+    id_name: deploymentId
+    endpoint: /wireless/devices/provisioning/deployments
   - name: organization_admin
     has_own_id: true
     endpoint: /admins
