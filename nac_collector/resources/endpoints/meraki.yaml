@@ -305,6 +305,8 @@
     - name: cellular_gateway_uplink
       endpoint: /cellularGateway/uplink
     root: true
+  - name: appliance_routing_vrfs_settings
+    endpoint: /appliance/routing/vrfs/settings
   - name: organization_auth_radius_server
     has_own_id: true
     id_name: serverId
@@ -342,6 +344,10 @@
     has_own_id: true
     id_name: profileId
     endpoint: /appliance/dns/split/profiles
+  - name: routing_vrf
+    has_own_id: true
+    id_name: vrfId
+    endpoint: /routing/vrfs
   - name: appliance_third_party_vpn_peers
     endpoint: /appliance/vpn/thirdPartyVPNPeers
   - name: insight_monitored_media_server
