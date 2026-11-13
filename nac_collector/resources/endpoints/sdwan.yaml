@@ -364,6 +364,11 @@
     endpoint: /snmp
   - name: system_perfomance_monitoring
     endpoint: /perfmonitor
+- name: sig_security_feature_profile
+  endpoint: /v1/feature-profile/sdwan/sig-security
+  children:
+  - name: sig
+    endpoint: /sig
 - name: application_priority_feature_profile
   endpoint: /v1/feature-profile/sdwan/application-priority
   children:
@@ -499,8 +504,6 @@
   endpoint: /template/policy/definition/vpnmembershipgroup/
 - name: port_list_policy_object
   endpoint: /template/policy/list/port/
-- name: sig_security_feature_profile
-  endpoint: /v1/feature-profile/sdwan/sig-security
 - name: advanced_inspection_profile_policy_definition
   endpoint: /template/policy/definition/advancedinspectionprofile/
 - name: vpn_list_policy_object
